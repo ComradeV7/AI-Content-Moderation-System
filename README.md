@@ -2,6 +2,9 @@
 
 An intelligent, multi-agent content moderation pipeline built with **LangGraph**, **Llama 3**, and **Groq**. This system processes text and images to detect toxicity, spam, and policy violations with a "Human-in-the-Loop" approval workflow.
 
+
+<img width="1898" height="950" alt="image" src="https://github.com/user-attachments/assets/3e40c674-2210-4373-aa73-b56910762393" />
+
 ## Key Features
 
 * **Hybrid Architecture:** Combines fast deterministic logic (Regex) with probabilistic AI (LLMs) for cost-efficient processing.
@@ -94,3 +97,8 @@ To scale this system for enterprise production, the following features are plann
 3.  **API Decoupling:** Refactor the LangGraph pipeline into a dedicated **FastAPI** microservice, allowing integration with mobile apps and other frontends.
 4.  **Vector Database Context:** Allow admins to upload specific PDF policy documents (RAG), enabling the Judge Node to cite specific company bylaws when blocking content.
 
+## Results
+
+<img width="934" height="554" alt="image" src="https://github.com/user-attachments/assets/f505980b-5ad4-48b8-b37a-169d77bfe2f1" />
+
+<img width="1874" height="895" alt="image" src="https://github.com/user-attachments/assets/a7fb71fa-cfcd-44a3-8776-446412cc73ea" />
