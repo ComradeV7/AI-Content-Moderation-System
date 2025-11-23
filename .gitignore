@@ -1,0 +1,19 @@
+# 1. Secrets (NEVER upload these)
+.env
+
+# 2. Python Virtual Environments
+venv/
+env/
+.venv/
+
+# 3. Python Cache & Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# 5. OS Metadata (Mac/Windows)
+.DS_Store
+Thumbs.db

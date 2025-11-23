@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain-groq
+langchain-community
+langchain-core
+langgraph-checkpoint-sqlite
+streamlit
+altair
+pandas
+python-dotenv
