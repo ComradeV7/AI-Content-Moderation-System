@@ -154,10 +154,10 @@ def judge_node(state: ModerationState):
     
     2. BLOCK (Severity 4): 
        - Scams / Financial fraud ("double your money").
+       - Sexual Harassment.
     
     3. ESCALATE (Severity 3): 
        - Bullying / Personal Attacks (e.g., "You look weird", "You are ugly").
-       - Sexual Harassment.
        - Ambiguous threats.
        - Ambiguous phrases like "I hate you" (Could be harassment or tantrum)
 
